@@ -1,0 +1,32 @@
+Logan
+Keillor
+John
+
+Software Lifecycle Phases
+
+Requirements - The parameters necessary for the software, which must be adhered to. The release must accomplish these.
+Design - The structure/outline of the solution with the goal of meeting gathered requirements.
+Implementation - The design as a functional product, aims to resemble the design and fulfill broad strokes of the requirements.
+Testing - Verifying that the implementation functions as intended through test cases and analysis.
+Release - Distribution of the verified, finished working product. Must meet the requirements.
+Maintenance/Support - User assistance, patches, small security updates, ensure smooth running.
+Update/Upgrade - Larger changes meant to add additional functionality, may require maintenance and support.
+
+Requirements - Must be gathered, all at once or over time, and will be used as the guide for what the solution must accomplish. Requires communication between the customer and development team. 
+Will have to be constantly referenced and possibly adjusted with the customer over time. Some requirements will be mandatory, some optional. Constraints on what can realistically be done must be weighed 
+against what is desired from the client. 
+
+Design - The structural outline of how the solution will look and function once implemented, subject to change before the release. Must meet requirements, and have a method of fulfilling them.
+This is often high-level first, and then detailed. This needs collaboration between whoever knows the requirements, designers, and developers. 
+
+Implementation - Rudimentary functionality of what will be the release after testing leads to adjustments and polishing. Adheres to the design and may lead to changes in the design.
+This will require developers to create the software. Involves breaking down the design into actionable pieces that can come back together to create a whole.
+
+Testing - The process of verifying that the implementation will meet the requirements and lead into a stable release. Requires quality assurance, and will often need more collaboration
+with the client in order to ensure all requirements will be met by release. 
+
+Release - 
+
+Maintenance/Support - 
+
+Update/Upgrade - 
