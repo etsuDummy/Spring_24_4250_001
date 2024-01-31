@@ -1,0 +1,22 @@
+Zachary
+Andrew
+James
+
+Concise Definitions:
+Requirements: A list of desired functions
+Design: taking the requiremnts and creating a model for implementation
+Implementation: The act of building the requirements based on the design while also documenting the development
+Testing: the act of ensuring the project works as intended by the requirements and design phases
+Release: A push of the product to public
+Support: Fixing after release issues
+Update: When you decide to add features after the release of a project
+
+Full Definitions:
+
+Requirements: Gathering --> Conditional Requiremnts, Must-have requiremnts, Optional Requirements
+Design: Translation of Requirements into a blueprint encompassing: System Architechture, code structure, algorithms, interfaces, and data models.
+Implementation: The translation of the design blueprint into the desired product
+Testing: Ensuring the product meets the requirements and design through Quality Assurance.
+Release: The formal process of opening the product to the desired audience.
+Support / Maintenence: Ensuring the performance and stability threshold is met for the product.
+Update:  To keep relevant, add any features that may have been requested or looked over in the requirements phase
