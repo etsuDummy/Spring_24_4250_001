@@ -1,7 +1,50 @@
-Jaylen
+Authors: Jaylen, Justin, Tyler, Yu
+Lifecycle for Software Engineering:
+  Requirements: (The building and gathering of information and data to create a requirement document)
+    1. The questioning of the client to get clear understanding of the created product
+    2. What the customer wants
+    3. What constraints are in place
+    4. What the product needs to do
+    5. How should the product be implemented
+    6. Post condition is the requirements document
+    7. First phase where customer defines What the system needs to do in order to add value to the business (From the Quiz)
 
-Justin
+  Design: (Using the requirements to build a high level framework of the product)
+    1. Converts the What of Requirements into the How of the solution (From the Quiz)
+    2. What is the end state of the solution given by the client
+    3. Creating high level charts that detail how the solution should look
+    4. Shows exactly how we will complete the requirements
+    5. How the product should be made
+    6. The function and skills needed in the solution
 
-Tyler
+  Implementation: (Building product from design)
+    1. Realization of the defined Design resulting in a working solution (From the Quiz)
+    2. Updating design when/if needed
+    3. Can contain self-documenting code
+    4. Building scripts/code
 
-Yu
+  Test: (After implementation, ensure project meets every requirement and is functional)
+    1. Demonstrates the solution meets the defined Requirements (from the Quiz)
+    2. Series of events used to ensure systematically that product is functional
+    3. Test cases are captured into 1 or more test documents
+    4. If multiple systems are involved, each system will likely have its own test document
+    5. Attempting to find any bugs that cause the solution to not work the way it was designed
+    6. Often have a traceability matrix
+    7. Testing documentation per layer
+    8. Checking security of the product
+    9. Testing edge cases
+
+  Release: (Deploy the solution into production)
+    1. Formal process to make the solution available to targeted users (From the Quiz)
+    2. Can include scripts to perform the actual release into production environment
+    3. Can also include roll back script if the release fails
+    4. Can include scripts to handle upgrading current environment
+
+  Support/Maintenance: (Bugfixes. Provides patches but not new features. Ensures product remains in working order)
+    1. Phase where bug fixes and minor changes are released as Patches to the production environment (From the Quiz)
+    2. Important to keep product working and secure in the future
+    3. Deploying patches to maintain the solution by fixing bugs
+    4. When bug fixes are made to a production release, they are accompanied by original release docs
+
+  Upgrade/Update: (Making improvements to the product with new hardware and functions)
+    1. Minor version increments to the the production environment to introduce new features and/or changes to existing features, may include bug fixes (From the Quiz)
