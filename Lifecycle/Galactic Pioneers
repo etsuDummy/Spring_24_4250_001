@@ -1,1 +1,38 @@
+Team Members: Abigayle, Noah, Grayson 
+
+Requirements: The "what" of the project, not including the "how" of the project
+- Company needs
+- Requirement Analysis
+- Documentation & Verification
+
+Design: Designing the software once the requirements are given
+- Architecture Design
+- User Interface Design
+- System and Component Design
+
+Implementation: The actual code, hardware, other technologies that the project requires
+- Code
+- Scripts
+- Hardare 
+
+Test: Making sure that the implementation is working properly to be deployed
+- Unit Testing
+- Integration Testing
+- System Testing 
+
+Release: Delivering the completed project to the client
+- Release Procedures
+- Scripts
+- Release Notes 
+
+Support/Maintenance: After releasing the solution providing updates to keep it in service
+- Correction maintenance, fixing bugs
+- Adoptive maintenance, updating software
+- Addresing complaints the client has
+
+Upgrades/Updates: Implementing new features to the solution
+- Large scale chages
+- New softaware features
+- New hardware featues 
+
 
