@@ -1,3 +1,12 @@
 Zachary
 Andrew
 James
+
+Concise Definitions:
+Requirements: A list of desired functions
+Design: taking the requiremnts and creating a model for implementation
+Implementation: The act of building the requirements based on the design while also documenting the development
+Testing: the act of ensuring the project works as intended by the requirements and design phases
+Release: A push of the product to public
+Support: Fixing after release issues
+Update: When you decide to add features after the release of a project
