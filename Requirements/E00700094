@@ -1,0 +1,36 @@
+Try to write the requirements for a simple arcade-style driving game where the player must navigate around obstacles to keep from crashing.
+
+Assumptions:
+-The game is 2D. 
+-The player's car will accelerate automatically, so they will only have to steer. 
+-The game is an "endless runner" so it has no true win state. 
+
+Functional Requirements:
+The game MUST have a fail state. 
+The game MUST be able to restart. 
+The game MUST have a means of keeping score.
+The game MUST have boundaries of the play area. Sub-requirements:
+-The game MUST have a left edge boundary.
+-The game MUST have a right edge boundary. 
+The player MUST be able to control the car. Sub-requirements:
+-The player MUST be able to steer the car left, to the left edge of the play area. 
+-The player MUST be able to steer the car right, to the right edge of the play area. 
+The game MUST provide obstacles for the player to avoid. Sub-requirements:
+-The obstacles SHALL be spawned randomly (in both placement and timing). 
+The game MUST be able to detect when the car hits an obstacle. Sub-requirements:
+-The car MUST have a hitbox. 
+-The obstacles MUST have a hitbox.
+The game MUST be able to detect with the car hits either edge of the play area. Sub-requirements:
+-The left edge of the play area MUST have a hitbox.
+-The right edge of the play area MUST have a hitbox.
+The game SHALL run at a consistent framerate (~30 FPS). 
+
+Non-Functional Requirements:
+The game can track high scores between plays. Sub-requirements:
+-The top score can be replaced with a higher one if comparison deems it to be. 
+The game can have a "lives" system. Sub-requirements:
+-Lives can be gained at fixed score intervals. 
+The game can scale in difficulty as the player progresses in a play. Sub-requirements:
+-The car can get faster.
+-The obstacles can spawn more frequently. 
+The game should have error handing. [Exact details for error handling need to be decided]
