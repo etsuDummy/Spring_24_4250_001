@@ -1,9 +1,9 @@
 Try to write the requirements for a simple arcade-style driving game where the player must navigate around obstacles to keep from crashing.
 
 Assumptions:
--The game is 2D. 
--The player's car will accelerate automatically, so they will only have to steer. 
--The game is an "endless runner" so it has no true win state. 
+The game is 2D. 
+The player's car will accelerate automatically, so they will only have to steer. 
+The game is an "endless runner" so it has no true win state. 
 
 Functional Requirements:
 The game MUST have a fail state. 
