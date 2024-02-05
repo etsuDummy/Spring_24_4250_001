@@ -1,0 +1,24 @@
+-	Requirement: Helps with describing what the solution will do.
+-	Functional or non-functional and SRS is the formal specifications/needs of a solution. In regards of SDLC phases, the SRS is a precondition for design phase.
+-	Analysis, requirements are like goals that should be like SMART. Requirements analysis is how a team understands an action, as much as possible, and the solution.
+- Hard to read/understand.. Why? ---> Customers create them and define them.
+
+Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+Create an objective
+- Navigate car through obstacles without colliding with anything / stay on road.
+
+Controls
+- Use arrow keys for steering
+- Add more controls for acceleration.
+
+Obstacles
+- Introduce various obstacles such as cones, barriers, and moving objects that the player needs to avoid
+
+Levels
+- Design levels introudicng obstacles
+
+
+-	How do you know when you are done with the requirements phase?
+-	When all input meets the requirements or given information on clear documentation that makes sure it matches the overall goals of the provided project.
+ Check for any expected changes and go over/analyze if the plan works and/or use prototypes to make sure everything is understood and reviewed for the project. 
