@@ -8,15 +8,23 @@ Try to write the requirements for simple arcade style driving game where the pla
 Create an objective
 - Navigate car through obstacles without colliding with anything / stay on road.
 
-Controls
+Design Controls
 - Use arrow keys for steering
 - Add more controls for acceleration.
 
-Obstacles
+Define the obstacles
 - Introduce various obstacles such as cones, barriers, and moving objects that the player needs to avoid
 
-Levels
+Creation of Levels
 - Design levels introudicng obstacles
+- Add tiers to each level to make it difficult 
+
+UI
+- Make a friendly interface that is easy to navigate through
+- Simple buttons and controls that can be easily understood
+
+Application Used
+- Make a decision whether you want to make a mobile app or web version app.
 
 
 -	How do you know when you are done with the requirements phase?
