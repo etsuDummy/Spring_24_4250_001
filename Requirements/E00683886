@@ -1,0 +1,38 @@
+Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+Functional
+Mandatory
+    There needs to be a vehicle to drive
+    The vehicle is constantly moving forward
+    The vehicle needs to be able to accelerate
+    There needs to be obstacles
+    There needs to be enough space in the environment so the vehicle can move around
+    There needs to be an environment big enough to play at least 5 minutes
+    There needs to be a pause screen
+    In the pause screen, buttons to restart, settings, exit to menu, and exit to desktop/quit app
+    The settings has difficulty that increases difficulty which increases speed and more obstacles
+    The settings has audio settings that can mute or increase/decrease audio in SFX and music
+    The music has has 3 options: jazz, rap, and rock
+    When vehicle crashes, the game stops and asks to play again or back to the menu
+    Graphics need to be in an 8bit style
+    The vehicle is a red sport car
+    Obstacles can be ramps, other vehicles, and people
+    Game can be played by keyboard keys wasd or arrow keys
+    Game can be played by swiping left or right on phone
+    Game can be played on a controller
+
+
+Optional
+    There needs to be a point system
+    Points need to be earned by close calls or airtime
+    Able to customize vehicle to different cars, trucks, and others
+    Start game by entering User Name
+    Vehicles can use Ramps to jump over to gain airtime
+Non-Functional
+Mandatory
+    Game has to be played by computer and phone
+    Players that download the game as to have 500mb of space to download
+    Game is free to download
+Optional
+    Needs to connect to the internet to show other players points
+    There can be ads to build revenue. Only after crashing
+
