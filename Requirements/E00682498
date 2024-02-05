@@ -1,0 +1,21 @@
+Driving Game
+Mandatory
+
+Loading Screen with options to play, quit out, or see high score
+When played, changes from loading screen to the actual game
+The actual game is a top down view of the player's car on the road
+There are guardrails on either side and various obstacles 
+These guardrails and obstacles will end the game and give a score
+The player will keep driving until an obstacle is quit or they bring up
+the pause menu that has an option to quit
+The car cannot be stopped, and will move faster and faster over time
+The score is given based on distance the car has gone
+Once the game is over, the player is brought back to the main menu
+
+
+Optional
+
+System to earn currency for good scores so you can buy new cars
+Pedestrians will walk into the road suddenly (moving obstacles)
+Honk the horn
+Kinser is the driver and you can change his haircuts with the currency you earn
