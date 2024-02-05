@@ -1,0 +1,17 @@
+Program A 
+
+Ball will bounce off of the sides of the screen, and the user will be able to draw obstacles with their mouse.
+
+Mandatory Requirements:
+Ball must move, collide with obstacles, bounce off walls.
+Mouse must draw obstacles that can interact with the ball if it’s larger than 3 pixels.
+Ensure that if an obstacle is less than 3 pixels that it doesn’t affect the ball. 
+Ball program must work with a wide number of window sizes. Eg. resolutions.
+Add a reset ball button to fix any problems like the ball getting stuck.
+
+
+Optional Requirements: 
+Ball makes a sound when bouncing off an obstacle.
+Customizable ball sizes/colors.
+Add visual effects to the ball when it moves or bounces off obstacles.
+Make the ball never hit the corners of the window.
