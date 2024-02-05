@@ -13,8 +13,13 @@ The game MUST have boundaries of the play area. Sub-requirements:
 -The game MUST have a left edge boundary.
 -The game MUST have a right edge boundary. 
 The player MUST be able to control the car. Sub-requirements:
--The player MUST be able to steer the car left, to the left edge of the play area. 
--The player MUST be able to steer the car right, to the right edge of the play area. 
+-The player MUST be able to steer the car left, to the left edge of the play area. Sub-requirements:
+--The game MUST be able to detect when the player STARTS holding the left button.
+--The game MUST be able to detect when the player STOPS holding the left button. 
+-The player MUST be able to steer the car right, to the right edge of the play area. Sub-requirements:
+--The game MUST be able to detect when the player STARTS holding the right button.
+--The game MUST be able to detect when the player STOPS holding the right button. 
+-The game's input MUST be responsive to allow for high-speed input (tolerance of TBD milleseconds). 
 The game MUST provide obstacles for the player to avoid. Sub-requirements:
 -The obstacles SHALL be spawned randomly (in both placement and timing). 
 The game MUST be able to detect when the car hits an obstacle. Sub-requirements:
