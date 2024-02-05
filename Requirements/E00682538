@@ -1,0 +1,41 @@
+I did the prompt where we had to write the requirements for a simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+To summarize it, It's an arcade style game that provides players with a fun and challenging experience. THe player can control a vehicle and must navigate it horizontally across the screen avoiding any obstacle that might appear.
+
+One of the key components I recognized is the gameplay. A player can move the car up and down. The car itself will constantly move right. Obstacles will be generated in regular intervals. Once the player crashes, the game ends. I feel like this is mandatory and functional.
+Another component is the user interface. It needs to have easy to use buttons to move the car. It also needs to show the players score (either obstacles dodged or distance traveled). I feel like this is mandatory and functional.
+Another component is the obstables. They can either be static or moving. I feel like this is mandatory and functional.
+Another compenent is the levels. The farther you go, the more difficult the game gets (Car's speed increases and there will be more obstacles.) I feel like this is mandatory and functional.
+
+An optional requirement could include powerups and some performance inprovements.
+
+Some tools you can use to build this includes the Unity game engine and the documentation for it. You could also use other IDEs for it. You could use GitHub to manage to code you make.
+
+There were some questions I had with it:
+Is this for mobile, desktop, or a browser?
+Is this playable on specific operating systems?
+Is there a specific setting for the game (like a city)?
+Is there any minimum device specifications?
+Is there a specific layout or design perference?
+How will the players be scored?
+
+There are some assumptions I made:
+It's a single player game.
+It's a 2D game.
+There's a player vehicle (the type is unknown).
+The objective is to avoid obstacles.
+There is score based progression.
+A crash results in a game over.
+There are no specific constraints.
+
+Some of the unhappy path things I though about:
+The user doesn't touch the controls
+The user go out of bounds
+
+Here are some things related to the bigger picture:
+If the game goes well. you can make an engaging game with good retention rates.
+If the game goes well, you can improve you and your team's reputation.
+If the game goes well, you could inspire others to make a similar game.
+However, if the game is bad, the opposite could be true with these first three statements.
+You could aso gather feedback and improve the game.
+
