@@ -1,0 +1,12 @@
+Problem: Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+1. There must be a sprite for the player to control
+2. There must be different obstacles for the player to avoid
+3. There has to be different levels for the player to play in
+4. The levels should get more difficult as they go on to provide a challenge
+5. The player should be able to pick their vechicle from a list 
+6. The game could go indefinitely and let the user enter their name if they beat the previous high score 
+7. The user can use any controller they want 
+8. The user could be able to design their own level 
+9. The game could be connected to the internet so users can upload the levels they make
+10. Users can download other users levels 
