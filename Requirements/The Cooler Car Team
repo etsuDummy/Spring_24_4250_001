@@ -1,0 +1,14 @@
+Members: James, Grayson, Jacob, Blake, Keillor
+
+Functional Requirements:
+
+1 - There must be a sprite for the player to control
+2 - The game must be able to detect when the car hits an obstacle
+  2.1 - The cars must have a hit box
+  2.2 - The obstacles must have a hit box 
+3 - The game must have an ending point 
+  3.1 - If the car hits an obstacle it ends the game
+  3.2 - The game must have a "fail" state
+  3.3 - The game must be able to restart 
+4 - There must be a consistent number of generated obstacles
+  4.1 - There must be different obstacles for the player to avoid
