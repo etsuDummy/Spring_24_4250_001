@@ -8,3 +8,4 @@ Requirements:
 4. Road type/Way to switch lanes and avoid obstacles (Mandatory)
 5. Menu for user to start, exit, and play again when they lose (Optional)
 6. Animations get faster for harder difficulty over time, or a difficulty switching option (Optional)
+7. Timer for scoring depending how long the user lasts (Optional)
