@@ -1,0 +1,29 @@
+Functional:
+•	Mandatory:
+o	  The game must have user input functions
+o	  The game shall be written in C#
+o	  The game must have encoded obstacles
+	    The game must have designs for the obstacles
+o	  The game must have a road setting designed
+o	  The game must have a vehicle design
+o	  The game must have a start screen before the game begins
+o	
+•	Optional:
+o	  The game can have a transition from the start screen to the beginning of the game
+o	  The game can use the vehicle as the start menu 
+	    Can start the game by just removing the start menu text
+o	  The game can have a prerecord trailer of the game being played while not being used.
+Non-Functional:
+•	Mandatory:
+o	  The input function must respond to the user control actions
+o	  The game shall have collision features
+o	  The game must have a random generator of obstacles.
+o	  The game must have an array of obstacles to call upon
+•	Optional:
+o	
+Questions:
+•	  What type of controls are going to be used for the user to play the game?
+•	  What type of obstacles should the game have?
+•	  Should the game have multiple car designs available for the users to choose from?
+o	    Should the different cars have different stats or should they simply be a cosmetic feature?
+•	  Should the game have vehicle stats?
