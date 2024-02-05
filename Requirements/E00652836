@@ -1,0 +1,14 @@
+Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+-	Must have a starting point
+-	Must have an ending point(finish line)
+-	Must take user input for vehicle
+-	Must simulate vehicle acceleration
+-	Must slow vehicle when obstacle is hit (at least 25%)
+-	Must be able to detect when an obstacle is hit
+- Must be able to generate a limited number of obstacles on roadway
+- Steering responsiveness must account for momentum of vehicle
+-	May damage vehicle when an obstacle is hit 
+-	Damage may vary depending on speed (maximum 10%)
+-	May have physics engine to simulate crashes
+-	May allow for multiple users (maximum 4)
