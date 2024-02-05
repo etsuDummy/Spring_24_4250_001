@@ -6,9 +6,10 @@
 
 - Only obstacles larger than 3 pixels shold be considered valid for interaction with the ball.
 
-- The program will simulate a ball that moves across the screen.
+- The program will simulate a ball that moves across the screen.(position, speed, and direction are predefined but could be randomized or set by the user input in advanced settings)
 
-If web-based, it should be compatible with major browsers (e.g., Chroal position, speed, and direction are predefined but could be randomized or set by the user input in advanced settings
+
+- If web-based, it should be compatible with major browsers (Chrome, edge, firefox, safari)
 
 - The ball bounces off the screen edges and user-drawn obstacles according to basic physics principles (angle of incidence equals angle of reflection)
 
