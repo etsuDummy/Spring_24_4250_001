@@ -1,0 +1,10 @@
+Try to write the requirements for a program that bounces a ball off the sides of the screen and any obstacles larger than 3 pixels the user draws with the mouse
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The program shall initialize a two-dimensional space representing the screen area.
+The boundaries of the screen shall be treated as solid walls.
+Users shall have the ability to draw obstacles within the two-dimensional space using a mouse interface.
+Drawn obstacles must be larger than a minimum size (e.g., 3 pixels) to affect the ball's trajectory
+Upon collision, the ball shall bounce off the obstacle or boundary, with the angle of incidence equal to the angle of reflection.
+The speed and direction of the ball post-collision shall be calculated based on the collision dynamics.
+The program shall provide a real-time visual representation of the ball's motion.
+Obstacles shall be rendered in a distinguishable manner from the background and the ball. 
