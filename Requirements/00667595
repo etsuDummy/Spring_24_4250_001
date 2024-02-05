@@ -1,0 +1,30 @@
+- Try to write the requirements for a program that bounces a ball off the sides of the screen and any obstacles larger than 3 pixels the user draws with the mouse.
+
+- Users will draw obstacles by clicking and dragging the mouse on the screen.
+
+- The program must recognize and store the shape of the obstacles drawn by the user.
+
+- Only obstacles larger than 3 pixels shold be considered valid for interaction with the ball.
+
+- The program will simulate a ball that moves across the screen.
+
+If web-based, it should be compatible with major browsers (e.g., Chroal position, speed, and direction are predefined but could be randomized or set by the user input in advanced settings
+
+- The ball bounces off the screen edges and user-drawn obstacles according to basic physics principles (angle of incidence equals angle of reflection)
+
+- The program must continuously check for collisions between the ball and the screen edges or any user-drawn obstacle.
+
+- Collision detection should account for the size of the ball, ensuring accurate bounce behavior.
+
+- The program should efficiently detect collisions to maintain smooth ball movement, even with multiple obstacles on the screen.
+
+- Assure smooth and responsive ball movement optimized for real-tie interactions
+
+- intuative controls for drawing obstacles
+
+- clear visual feedback should be given for valid and invalid actions
+
+- possibly compatible with standard desktop operating systems Windows, macOS, Linux
+
+- If web-based, it should be compatible with major browsers( Chrome, Firefox, Safari, Microsoft Edge )
+
