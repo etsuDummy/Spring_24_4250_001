@@ -1,0 +1,60 @@
+Members: James, Grayson, Jacob, Blake, Keillor
+
+Requirements:
+
+Functional:
+
+1 - There must be a sprite for the player to control
+
+2 - The game must be able to detect when the car hits an obstacle
+  2.1 - The cars must have a hit box
+  2.2 - The obstacles must have a hit box 
+
+3 - The game must have an ending point 
+  3.1 - If the car hits an obstacle it ends the game
+  3.2 - The game must have a "fail" state
+  3.3 - The game must be able to restart 
+
+4 - There must be a consistent number of generated obstacles
+  4.1 - There must be different obstacles for the player to avoid
+
+5 - Must allow inputs from the user
+  5.1 - menu navigation
+  5.2 - Car input: Accelerate, Decelerate, Handbreak
+    5.2.1 - Handbreak allows car to drift 
+  5.3 - Ckeckpoint to track progress
+  5.4 - Score / scoreboard 
+  5.5 - The game will go indefinitely and keep track of the high score
+    5.5.1 - The game will keep record of high scores
+      5.5.1.a - The game will compare previous high scores to new ones to find a new high score
+
+Functional Optional:
+
+1 - Allow player to compete against a trial ghost
+2 - Different game modes; easy, medium, hard
+  2.1 - Allow a certain number of lives
+  2.2 - Increase speed as the game goes on to increase difficulty
+3 - The player can choose their vehicle from a selection screen
+  3.1 - Different cars have different stats; speed, control, etc.
+
+Non-functional:
+
+1 - Platform 
+  1.1 - Web or Mobile application
+  1.2 - Kerboard and mouse or touch screen
+  1.3 - Technologies used
+
+2 - Performance
+  2.1 - Free of bugs/glitches
+  2.2 - Error handling
+  2.3 - The game shall run at a consistent frame rate (30 fps)
+
+3 - Design
+  3.1 - Art style and background of the game
+  3.2 - Themes of level 
+
+Non-functional Optional:
+
+1- May allowed for optional users
+  1.1 - multiplayer; online or local
+
