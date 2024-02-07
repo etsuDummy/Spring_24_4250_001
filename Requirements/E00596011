@@ -1,0 +1,11 @@
+Try to write the requirements for simple arcade style driving game where the player has to 
+navigate around obstacles to keep from crashing.
+
+Requirements:
+1. Have a model for the car exterior/interior depending if 1st or 3rd person (Mandatory)
+2. Obstacles of different kinds (Optional)
+3. Crashing animation (Madatory)
+4. Road type/Way to switch lanes and avoid obstacles (Mandatory)
+5. Menu for user to start, exit, and play again when they lose (Optional)
+6. Animations get faster for harder difficulty over time, or a difficulty switching option (Optional)
+7. Timer for scoring depending how long the user lasts (Optional)

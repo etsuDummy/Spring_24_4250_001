@@ -1,0 +1,43 @@
+Justin, Jaylen, Tyler, Yu, John, Logan
+
+Problem: Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+Functional Mandatory:
+	Needs Vehicle
+	User Input
+	Start over after crash
+	Vehicle needs to accelerate
+	Obstacles must have collision / Obstacles in cars path that must be avoided
+	Fixed Camera angle (1st or 3rd Person)
+	Main Screen presented when game is opened
+	Pause Screen to allow player exit/reset
+	Map limits/Out of bounds areas
+	The game must have a road setting design (map)
+	
+Functional optional:
+	Tracking Points earned based on Finishing Position
+	Must be multiple levels
+	Faster speeds/harder difficulty over time
+	The game can have a prerecorded trailer of the game being played while not in use
+	Audio settings for SFX + Music
+	Crashing Animation
+	Out of bounds areas that negatively affect speed/handling
+	There can be multiple races in a single session
+	Honk the horn (Must have a horn)
+	High score screen
+	Kinser is the driver and you can change his haircut style with earned coins/points
+	Vehicle Customization
+	Obstacle movement for difficulty increase
+	There can be vehicle customizations (Skins)
+	Having different vehicle starts
+	Obstacle movement for difficulty increase
+
+Nonfunctional Mandatory:
+	Game must have an array of obstacles to call upon
+	The input function must respond to the user control actions
+	Game must have random obstacles generated on the map (Random Generation)
+	
+Nonfunctional Optional:
+	Reserve Space to download
+	needs to connect to internet
+	Ads to build revenue
