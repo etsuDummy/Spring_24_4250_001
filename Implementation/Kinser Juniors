@@ -1,0 +1,33 @@
+ _  _____ _   _ ____  _____ ____        _ _   _ _   _ ___ ___  ____  ____  
+| |/ /_ _| \ | / ___|| ____|  _ \      | | | | | \ | |_ _/ _ \|  _ \/ ___| 
+| ' / | ||  \| \___ \|  _| | |_) |  _  | | | | |  \| || | | | | |_) \___ \ 
+| . \ | || |\  |___) | |___|  _ <  | |_| | |_| | |\  || | |_| |  _ < ___) |
+|_|\_\___|_| \_|____/|_____|_| \_\  \___/ \___/|_| \_|___\___/|_| \_\____/ 
+
+Members - Logan, Keillor, John
+
+### Problem 2
+Take in a string (from a user or a file), compute the total number of occurrences of each character in the ASCII set. 
+Print out the top three characters (with the most occurrences). 
+Print out how many characters in the ASCII set you didn’t detect. Then print out the string in reverse order.
+
+### Pseudocode / Storyboard
+1. User is given instructions and information.
+
+2. User is prompted for entry, this can be a string or file path. Entry is stored in a variable.
+
+3. User's entry rejected if character is not in ASCII or >2,147,483,647 and they are prompted again and told what was wrong with their entry.
+
+4. Entry is accepted and saved to an array (Original_Entry_Array).
+
+5. A loop iterates through the saved entry 256 times for each ASCII character and creates a new array (Occurence_Array) of occurences, which is mapped to the original array.
+
+6. A third array (Modified_Array) is created as a duplicate of Occurence_Array. Modified_Array is searched through three times for the highest value, with each iteration removing the highest and saving it
+to a new variable (First_Highest, Second_Highest, Third_Highest)
+
+### Team Process
+1. Brainstormed ideas off the tops of our heads together
+2. Researched the viability of the ideas and determined if they were possible to implement in code efficiently
+3. Planned out a general architecture on paper
+4. Moved into choosing concrete steps together, once all three of us agreed we added one step on 
+
