@@ -1,1 +1,57 @@
+Blake Lawson and Jacob Perdue
+Implementation Exercise #1 Recursion
 
+1. Requirements
+- In: 2 Integers provided by user (human).
+- Out: Single digit result after recurvisely adding the digits.
+- Constraints: The input numbers can be posivitve integers only.
+
+2. Code Design
+- Establish a recursive function. For example: "add_and_reduce(num1, num2)"
+- If both num1 and num2 are less than 10... return sum. ---> If not, finalize/output sum of num1 and num2.
+- Seperate least signifcant digit from the sum.
+- Recursively call the function above with remaining sum and the seperated least significant digit.
+
+3. Implement
+- Language used: C# (Supports recursion)
+- Variables: Input number1 and number2
+- Function: AddAndReduce(number1, number2)
+
+Happy Path
+1.) User enters two positive integers.
+2.) Adds the two integers and stores the result in variables.
+3.) Seperates least signifcant digit and stores the values in a variable.
+4.) Add both new variables together.
+5.) Repeat/Recursively call this process until the value is < `10.
+
+
+Devils Advocate
+1.) User enters a decimal. --> Error Handling: "Please enter a whole number"
+2.) User enters a value that is already one digit. --> If digit less than < 10, process finished. If not, continue with process.
+4.) User enters nothing. --> Error Handling: "Please enter a positive whole number"
+5.) User enters a negative number. -->  Error Handling: "Please enter a positive whole number"
+6.) User enters a number greater than 4,294,967,295.  Error Handling: "Please enter a whole number less than 4,294,967,295"
+
+
+
+
+C# Function (Work in Progress)
+public int AddAndReduce(number1, number2)
+    {
+      
+        if (number1 && number2 < 10) // If both numbers are single digits
+        return number1 + number2;
+        else
+    }
+
+    {
+      
+    uint totalSum = (uint) number1 + (uint)number2;
+
+    int leastSigDigit = (int)(totalSum % 10);
+
+  return AddAndReduce((int) (totalSum / 10), leastSigDigit);
+
+  }
+
+}
