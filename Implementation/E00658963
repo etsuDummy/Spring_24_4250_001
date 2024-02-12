@@ -1,0 +1,19 @@
+Requirements:
+1. Take in a string file.
+2. Take the total number of times each character occurres from the file.
+3. Use the ASCII set.
+4. Print out the top three chracrters occuring the most from the file.
+5. print out the total characters that were not detected in the file.
+6. Print out the string file in reverse order.
+
+Design:
+- A file is provided with a series of characters in the ASCII set. 
+- If the file returns a null value display an error window and close the program.
+- If the file is unreadable display an error window and close the program
+- The file is then read through by a method and counts the number of occurrences that each character is detected in the file. 
+- If the file doesnt contain only ASCII set characters the program will display a error window and close the program. 
+- The program must print out only the top three detected characters from most detected to least.
+- 
+
+Implementation:
+- The program should take in a string file using readalltext method.
