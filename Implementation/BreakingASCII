@@ -1,0 +1,27 @@
+Team: Tyler and Justin
+
+Requirements:
+    -Take in a string
+    - Can be from the user
+      - They can enter any string they would like that is within the ASCII character set.
+    - Can be from a file
+      - The file can be hard coded in.
+      - The string in the file can be anything that is within the ASCII character set.
+    - Get the total number of occurances of each character in the ASCII character set.
+    - Print out the top 3 characters used in the string.
+    - Print out the characters that were not detected.
+    - Print out the string in reverse
+    - Handle errors that might occur
+
+Design:
+    - Take in the string by using Console.ReadLine()
+      - User can enter "file" or "user"to choose where to get string from.
+    - To get total number of occurances of each character, count each character and keep track with a counter.
+      - Then, print out the characters that had the most occurances through previous step.
+    - To print out characters that weren't in the string, you should see which ASCII character codes aren't in the string and print it.
+    - To print out string in reverse, use a for loop and combine each character for last to first character.
+  Unhappy Path:  
+  - What if file doesn't exist?
+  - What if extended ACSII is used?
+  - What if file is locked?
+  - What if user enters a non ascii character?
