@@ -1,0 +1,59 @@
+Darren
+
+Requirements
+ 
+1.	String from User or file
+2.	Compute the Total number of occurrences of each character in ACII set
+3.	Print top 3 characters with most occurrences
+4.	Print out characters that was not detected
+5.	Print String in reverse
+ 
+ 
+ 
+ 
+Design
+ 
+Method 1: Ask use would you like to input a string by typing or by file
+ 
+UserInput
+•	Ask user to type a string
+File
+•	Take in file
+ 
+ 
+Overall 
+•	Validate that it is a string
+•	If valid STORE 
+The .isascii() method in Python does not take any arguments.
+ 
+From <https://www.codecademy.com/resources/docs/python/strings/isascii> 
+ 
+A method in python to check for valid ascii characters
+•	ELSE do not store and Ask user to input a correct string
+ 
+ 
+Method 2: Count ACII characters
+•	Use stored variable and turn it in into an array
+•	Loop into array for each word then character and count each letter
+ 
+•	Print each character with occurrences 
+ 
+Method 3: Print the top 3 occurrences 
+•	Sorted characters in by their counts in descending order 
+•	Use method 
+ sorted_chars = sorted(char_count.items(), key=lambda x: x[1], reverse=True)
+ 
+From <https://chat.openai.com/c/a65dd6a1-851a-4c8c-b20a-733838f8bbc6> 
+•	Then Iterate through the top 3 characters and print
+Method 4
+ 
+for char in input_string: if ord(char) > 127: return True return False
+ 
+From <https://chat.openai.com/c/cc24b8b7-c835-4621-b658-05ff00de1ccf> 
+•	Ord checks if it is an ASCII
+ 
+ 
+ 
+ 
+ 
+
