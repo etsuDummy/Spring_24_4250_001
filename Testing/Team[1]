@@ -35,6 +35,15 @@ Requirements, Poscondition:
   Postcondition:
     Missle is no longer displayed and no longer interacts
 
+2a.
+  Precondition:
+    Check if no ships are actively on the screen while game is running
+  Action:
+    Ship Launches
+  Postcondition:
+    New ship launched interacting with game
+  
+
 
 
 
