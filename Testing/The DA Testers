@@ -1,0 +1,75 @@
+Team Name: The DA Testers
+Darren and Abby
+
+Verification
+Requirement:
+	Verify user is a player
+	Requirements analysis
+	
+
+Design:
+	Traceability matrix
+	User Interface testing
+	Design review
+	
+	
+Implementation:
+Traceability matrix
+Unit testing
+Functional testing
+Stress testing
+Load testing
+Validation
+	Test Phase 
+Customer validation
+
+	The solution must support missiles launched by the user
+
+1.	The solution must initiate a missile launch when the user clicks the right mouse button.
+Precondition: Right mouse button is sticky 
+Action: User clicks multiple times and only some clicks go through: 
+Postcondition: Only registers valid clicks when clicks are <= 5
+Precondition: Right mouse button is not firmly pressed and not registered 
+Action: The button input was not picked up
+Postcondition: Input was not registered, so missile was not fired
+
+2.	The solution must initiate a missile launch when the user clicks the space bar
+
+Precondition: Right mouse button is sticky 
+Action: User clicks multiple times and only some clicks go through: 
+Postcondition: Only registers valid clicks when clicks are <= 5
+
+Precondition: space bar button is not firmly pressed and not registered 
+Action: The button input was not picked up
+Postcondition: Input was not registered, so missile was not fired
+ 
+3.	The solution must limit the number of active missiles on the screen to no more than five (5) at any given time. (an “active missile” is any missile currently being displayed on the screen)
+ Precondition: four missiles on the screen and one exploded
+Action: Program fails to register the exploded missile has exploded 
+Postcondition: User cannot fire missile due to exploded missile counting as an active missile
+
+Precondition: Played the game before and system failed to reboot properly. System failed to reset active missile counter
+Action: User tries to fire missile 
+Postcondition: User cannot fire missile due to max active missile counter
+
+
+Precondition: Game crashed and reboot 
+Action: User starts the game 
+Postcondition: Game has phantom images
+
+4.	The solution must maintain the same constant speed for all missiles
+	
+Precondition: User has limited memory 
+Action: User fires missiles
+Postcondition: Image for missile is stuttering
+
+5.	The solution must remove the missile from being active if it goes off the screen
+
+Precondition: Missile does not explode off screen so it doesn’t remove it from active missile
+Action: Program fails to de-active missile that went off screen
+Postcondition: User cannot fire missile due to reaching max active missiles
+
+Precondition: The user wants to change the monitor or screen size of the game
+Action: User moves game on a different monitor or expands screen size
+Postcondition: User has trouble seeing game. Game has static borders
+
