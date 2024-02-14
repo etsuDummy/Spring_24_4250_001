@@ -1,0 +1,87 @@
+Name: Grayson, Noah, Jacob 
+
+
+1. Identify all the verification activities that occur in the Requirements, Design and Implementation phases of the SE Lifecycle
+
+  Requirements:
+  
+  Mandatory should use MUST or SHALL
+  Optional is noted using CAN or MAY
+  Identification and definition
+  Problem analysis and decomposition of breaking it down.
+  Problem solving analysis and generating/creating a solution.
+  Requirements analysis focuses on completeness and correctness provided by the customer. Also known as verification activity.
+   
+  Design:
+  
+  In the design phase, a design review is the verification activity. Generating a traceability matrix and ensuring it is comprehensive is also considered a verification activity in the design phase. In the Implementation phase, code inspections/reviews, unit testing, and updating the traceability matrix are all considered verification activities.
+  (Cited directly from Slide 3 Verification from “Testing” PowerPoint)”
+   
+  
+  Implementation:
+  
+  Code inspections/revising and reviews such as:
+  Unit testing
+  Updating the traceability matrix is all verification activities.
+
+
+2. Identify all the validation activities that occur in the Requirements, Design and Implementation phases of the SE Lifecycle
+
+  Customer accepting testing 
+
+Test cases
+
+1. The solution must support missiles launched by the user
+
+  Test Case: b
+  -Action: User will need to press space bar a desired number of times (cannot exceed 5) missiles.
+  -Result: Missiles are fired matching the number of times the space bar was pressed.
+
+  Test Case: c
+  Precondition: No missiles active
+  Action: Launch 5 missiles
+  Postcondition: All 5 should be active and displayed
+
+  Precondition: 5 missiles active on screen
+  Action: Try to Launch 6th missile
+  Postcondition: Unable to launch as there can only be 5 missiles active in the game.
+
+
+  Test Case: F, G
+
+  Precondition:
+  -The game interface is active and no missles are currently in motion
+  -The player is ready to launch a missle
+  
+  Action:
+  F: Verify the missle launches from the center of the bottom of the screen.
+  G: Watch the missile to ensure it moves vertically straight up from the launch position
+  
+  Postcondition:
+  -The missle is confirmed to ahve launched from the bottom center of the screen
+  -the missle maintained vertical trajectory straight up from launch point
+
+
+  Test Case: H, I, J, K
+
+  Precondition:
+  -The game is in progress with both missles and ships present on screen
+  -Ships are moving or stationary targets with the game area
+  -Missles are being launched by the user
+  
+  Action:
+  H: A missle is launched by the user collides with a ship on the screen
+  I: Immediately upon impact, both the missle that hit the ship itself are removed from the screen
+  J: Following the explosion, both the missle that hit the ship and the ship itself are removed the screen.
+  K: The games count of hits is incremented one to reflect the successful hit
+  
+  Postcondition:
+  -The system accurately detects when a missled collides with a ship, without any falce positives or missed detections
+  -An explosion is visibly displayed at the collion point, enhancing the user experience and confiring the hit
+  - The missle and the hit ship are no longer visible on the screen making sure game area is updated
+  -The total count of hits is updated to include the most recent hit.
+
+
+2. The solution must support ships launched by the solution
+
+
