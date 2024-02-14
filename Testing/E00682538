@@ -1,0 +1,46 @@
+1. Verification Activities:
+ Requirements:
+  -Requirements Analysis
+ 
+ Design:
+  -Design Review
+  -Generating a traceability matrix and ensuring its comprehensive.
+
+ Implementation:
+  -Code Inspections/Reviews
+  -Unit Testing
+  -Updating the Traceability Matrix
+
+2. Validation Activities:
+ - Customer Acceptance Testing
+
+
+Test Cases:
+1.The solution must support missiles launched by the user
+ -a) Precondition: The game is running and there are no missiles on the screen.
+     Action: The user clicks the right mouse button 6 times.
+     Postcondition: Only 5 active missiles are displayed on the screen.
+
+ -b) Precondition: The game is running and there are no missiles on the screen.
+     Action: The user clicks the space bar 6 times.
+     Postcondition: Only 5 active missiles are displayed on the screen.
+
+ -c) Precondition: The game is running and there are 3 or less missiles on the screen.
+     Action: The user clicks the space bar and right mouse button simultaneously.
+     Postcondition: 2 missiles are fired.
+
+ -d) Precondition: The game is running.
+     Action: User presses anything other than right mouse button or space bar.
+     Postcondition: No missiles are fired.
+
+ -e) Precondition: The game is running and there are 5 or less missiles on the screen.
+     Action: A fired missile misses a target.
+     Postcondition: The missile is removed from the screen.
+
+ -f) Precondition: The game is running and there are 4 or less missiles on the screen.
+     Action: The user fires a missile.
+     Postcondition: The missile is launched from the center of the screen
+
+ -g) Precondition: The game is running and there are 4 or less missiles on the screen.
+     Action: The user fires a missile.
+     Postcondition: The missile maintains a constant speed.
