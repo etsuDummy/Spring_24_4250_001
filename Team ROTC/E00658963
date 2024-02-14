@@ -1,0 +1,22 @@
+Solo: Jaylen Gresham
+
+1. Identify all the verification activities that occur in the Requirements, Design and Implementation phases of the SE Lifecycle
+- Requirements: Requirement Analysis the focuses on completeness and correctness of the customer requirements
+- Design: Design reviews and generating a traceability matrix that is comprehensive.
+- Implementation: Code inspections/reviews, unit testing, and updating the traceability matrix.
+
+2.
+- Requirements: There is none
+- Design: There is none
+- Implementation: There is none
+
+Battleship Game Traceability Matrix:
+1.
+A. Precondition:No missles on the screen Action:user right mouse button Postcondition: Missle is launched
+B. Precondition:No missles on the screen Action:user clicks the space bar Postcondition: Missle is launched
+C. Precondition:Screen has no missles on the screen Action: User taps the space bar 6 times in rapid succesion Postcondition: Only 5 missles display on the screen
+D. Precondition:Missle traveling on the screen Action:Missle travels off the screen Postcondition:The missle becomes inactive once off the screen.
+E. Precondition:There is no missles on the screen Action: Missles are launched onto the screen Postcondition: All the missles travel at the same speed
+F. Precondition: No missles on the screen Action:Lauch one or more missles Postcondition:Missles are launched from the bottom of the screen
+G. Precondition: No missles on the screen Action: Initatie launch of missils in the game Postcondition: All missles maintain a constant direction vertically from thier start point.
+H. Precondition: The screen has ships populated on the screen Action: A missle is launched towards a ship Postcondition: The missle is detected as a "hit" when it makes contact with the ship
