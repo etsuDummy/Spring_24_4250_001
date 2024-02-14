@@ -1,0 +1,60 @@
+Noah Cole Implementation Assignment
+Requirement Analysis:
+
+Design:
+
+Inputs:
+1. Add the two numbers together.
+2. A string (from a user or file).
+
+Processes:
+1. Add the two numbers together.
+2. Repeatedly separate the least significant digit from the rest, add it to the remaining digits
+until only a single digit remains
+3. Complete the total number of occurrences of each character in the ASCII set within the
+string.
+4. Identify the top three characters with the most occurrences
+5. Count how many characters in the ASCII set were not detected in the string.
+
+Output:
+1. The single digit result.
+2. The top three characters and their design counts
+3. The number of undetected ASCII characters
+4. The reverse string
+
+Algorithm
+1. Initialize a dictionary to count occurrences of each character
+2. Loop through each character in the string, incrementing its count in the dictionary
+3. Determine the top three most frequent characters
+4. Calculate the number of ASCII characters (0-127) not present in the string.
+5. Reverse the string.
+6. Return the required information
+
+Pseudo Code:
+1. Reduce to single digit function:
+Function reduce_to_single_digit(num1, num2):
+total = num1 + num2
+if total < 10:
+return total
+else:
+return reduce_to_single_digit(total // 10, total % 10)
+
+2. Analyze string function:
+function analyze_string(input_string):
+ascii_counts = initialize an array of 128 zeros
+for character in input_string:
+ascii_counts[ord(character)] += 1
+top_three_characters = get top 3 elements from ascii_counts with their indices
+undetected_chars = count zeros in ascii_counts
+reversed_string = reverse input_string
+return top_three_characters, undetected_chars, reversed_string
+
+Test Cases:
+analyze_string("hello world") should return:
+Top three characters: ('l', 3), ('o', 2), ('d', 1) (or equivalent based on occurrence)
+Undetected ASCII characters: 122 (assuming only letters are counted)
+Reversed string: "dlrow olleh"
+analyze_string("abcabc123") should return:
+Top three characters: ('a', 2), ('b', 2), ('c', 2)
+Undetected ASCII characters: 121
+Reversed string: "321cbacba"

@@ -1,0 +1,8 @@
+//Take in a string (from a user or a file), compute the total number of occurrences of each character in the ASCII set. Print out the top three characters (with the most occurrences). Print out how many characters in the ASCII set you didn’t detect. Then print out the string in reverse order.//
+
+Design:
+Take in a string input from a user inputted string or with a file that was read in. 
+Compute the total number of occurrences of each character of the ASCII set by placing it into a linked list and iterating through the input/file and counting each character as it passes through the text. 
+Print out count of seen characters and sort by most occurrences.
+If the count for a character is zero, that character will be set as unseen. 
+Print the number of characters that was unseen.

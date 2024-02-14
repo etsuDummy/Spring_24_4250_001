@@ -1,0 +1,22 @@
+Requirements
+
+Mandentory
+Functional
+allow for screen resizing
+allows user to draw obstcles larger than 3 pixels
+when screen goes dark for 5 minutes play screen save
+if person shakes the mouse wake up or press key
+
+Non-Functional
+requires screen size check
+ball must bounce of obstacle or screen edge
+allow capatbilty with screen modes such as color blind mode
+
+Opitional
+Functional
+ball hits the screen borders change color
+
+Non-Functional
+allow for user to customize when screen saver plays
+allow for user to change colors
+allow for the ball to resized

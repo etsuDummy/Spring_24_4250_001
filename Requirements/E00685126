@@ -1,0 +1,44 @@
+-	Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+
+Assuming the game runs on an arcade machine or something similar, the art style is already chosen or will be chosen by an art team.
+
+General  Outline Requirements:
+•	Allow input from the player.
+•	Have a mechanism to detect collisions with obstacles.
+•	Display graphics to the screen.
+•	Allow the game to restart when the player loses.
+•	A scoreboard to see which players can make it the furthest.
+•	Allow the player to pick their car.
+•	Allow the player a certain number of lives.
+•	The game should be able to generate new obstacles on the fly so that the game can continue (like flappy bird)
+•	A system to ensure the player remains in bounds.
+•	Allow the car to drift around corners.
+•	A mechanism to allow the car to accelerate, decelerate, and handbrake.
+•	Multiple themes for the game (Level themes)
+•	Switch between car and motorcycle.
+•	Allow a ghost trial (let the car race against it’s previous run)
+
+
+Must:
+•	Allow Input from the player:
+  o	Accelerate, Decelerate, and handbrake.
+  o	Menu navigation.
+  o	Pause and Resume game.
+•	Detect collisions with obstacles and the outer bounds of the level.
+•	Display graphics of the game to a screen.
+•	Return the player to the menu when he/she loses.
+•	Maintain a score and score board for each player. Allow the player to choose their name for the score.
+•	Allow the player a certain number of mistakes/lives in a level.
+•	Allow the car to drift around corners with the handbrake.
+•	The game should generate new obstacles on the fly (like flappy bird). But be consistent with each level. Like a seed system in Minecraft - Optional
+•	The level should increase in difficulty as it progresses (like tiles the mobile game)
+
+Optional:
+•	Allow the player to race against their ghost from the previous trial.
+•	Have multiple themes for the different levels.
+•	Let the player pick between a car or motorcycle.
+•	Let the player choose their car and the color of the car.
+•	Let each car have different handling attributes.
+
+I think each of these requirements lays out the musts and nice haves of the simple game.
+
