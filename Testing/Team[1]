@@ -1,0 +1,50 @@
+Zachary Sveska
+Andrew Garcia
+James Park
+
+1.
+Requirement Phase:
+  Requirement Analysis
+
+Design Phase:
+  Design Reviews
+  Requirements Traceability
+
+Implementation Phase
+  Code Reviews
+  Unit Testing
+  Updating Traceability Matrix
+
+2.
+Requirements, Poscondition:
+    Customer Acceptance Testing
+
+1abc.
+  Precondition:
+    Exist in running game w less than 5 missles on screen
+  Action:
+    Click Right Mouse or Space Bar
+  Postcondition: 
+    Initiate missle launch if missles on screen < 5
+
+1d.
+  Precondition:
+    Missle is active, being tracked, has boundaries
+  Action:
+    Missle goes off screen, Initiate remove missle
+  Postcondition:
+    Missle is no longer displayed and no longer interacts
+
+2a.
+  Precondition:
+    Check if no ships are actively on the screen while game is running
+  Action:
+    Ship Launches
+  Postcondition:
+    New ship launched interacting with game
+  
+
+
+
+
+
