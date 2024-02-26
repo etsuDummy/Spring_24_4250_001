@@ -1,0 +1,56 @@
+ _  _____ _   _ ____  _____ ____        _ _   _ _   _ ___ ___  ____  ____  
+| |/ /_ _| \ | / ___|| ____|  _ \      | | | | | \ | |_ _/ _ \|  _ \/ ___| 
+| ' / | ||  \| \___ \|  _| | |_) |  _  | | | | |  \| || | | | | |_) \___ \ 
+| . \ | || |\  |___) | |___|  _ <  | |_| | |_| | |\  || | |_| |  _ < ___) |
+|_|\_\___|_| \_|____/|_____|_| \_\  \___/ \___/|_| \_|___\___/|_| \_\____/ 
+
+Members - Logan, Keillor, John
+
+### Verification and Validation
+1. Identify all the verification activities that occur in the Requirements, Design and Implementation phases of the SE Lifecycle
+  Requirements - Completing the Requirements Analysis
+  Design - Completing the Design Review, generating a comprehensive Traceability Matrix
+  Implementation - Code Inspection and Review, Unit Testing, updating the Traceability Matrix
+
+
+2. Identify all the validation activities that occur in the Requirements, Design and Implementation phases of the SE Lifecycle
+   No validation until the Testing phase
+
+### Battleship Test Cases
+Requirement 1a 1b.
+Precondition - User is currently playing a match
+Action - The user clicks the right mouse button or the spacebar
+Postcondition - A missile launch is initiated
+
+*In progress, 1c not finalized
+Requirement 1c.
+Precondition - User is currently playing a match and there are five missiles on the screen
+Action - Missile launching is disabled for all parties until there are less than five missiles on the screen
+Postcondition - 
+
+Requirement 2.
+
+Requirement 3.
+Precondition - User is currently playing a match and has reached "9" on the hit counter
+Action - User reaches a "10" on the hit counter
+Postcondition - The game ends
+
+Requirement 4.
+Precondition - User is currently playing a match
+Action - User presses the left mouse button 
+Postcondition - The game ends
+
+Requirement 5.
+Precondition - User is currently playing a match
+Action - User presses the "esc" key
+Postcondition - The game ends
+
+Requirement 6.
+Precondition - User is currently playing a match
+Action - User has gone five minutes without initiating a missile launch
+Postcondition - The game ends
+
+*Test to ensure other inputs do not reset the missile launch timer
+Precondition - User is currently playing a match
+Action - User performs other actions except for the missile launch and is in the game for five minutes
+Postcondition - The game ends
